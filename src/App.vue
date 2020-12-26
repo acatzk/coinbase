@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    
+    <header />
   </div>
 </template>
 
@@ -8,7 +8,9 @@
   export default {
     name: 'app',
     props: {},
-    components: {},
+    components: {
+      Header: () => import('@/components/Header')
+    },
     data () { return {} }
   }
 </script>
