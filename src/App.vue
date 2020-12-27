@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <head-bar />
+    <nav-bar />
   </div>
 </template>
 
@@ -9,7 +9,7 @@
     name: 'app',
     props: {},
     components: {
-      HeadBar: () => import('@/components/Header')
+      NavBar: () => import('@/components/NavBar')
     },
     data () { return {} }
   }

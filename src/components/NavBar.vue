@@ -5,19 +5,21 @@
       <div class="container mx-auto max-w-7xl px-4">
         <div class="flex items-center justify-between flex-wrap py-4">
           <div class="block sm:hidden">
-            <svg  class="w-8 h-8 text-white"
-                  stroke="currentColor" 
-                  xmlns:xlink="http://www.w3.org/1999/xlink" 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  viewBox="0 0 24 24" 
-                  preserveAspectRatio="xMidYMid meet">
-              <path xmlns="http://www.w3.org/2000/svg" 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round" 
-                    stroke-width="1.5" 
-                    d="M4 6h16M4 12h16M4 18h16">
-              </path>
-            </svg>
+            <button class="block focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-sm" @click="toggle = !toggle">
+              <svg  class="w-8 h-8 text-white"
+                    stroke="currentColor" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    preserveAspectRatio="xMidYMid meet">
+                <path xmlns="http://www.w3.org/2000/svg" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      stroke-width="1.5" 
+                      d="M4 6h16M4 12h16M4 18h16">
+                </path>
+              </svg>
+            </button>
           </div>
           <div class="text-white text-2xl">cointbase</div>
           <div class="flex-shrink-0">
@@ -49,6 +51,17 @@
         </div>
       </div>
     </div>
-   
+    
   </header>
 </template>
+
+<script>
+  export default {
+    name: 'header',
+    data () {
+      return {
+        toggle: false
+      }
+    }
+  }
+</script>
