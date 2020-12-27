@@ -21,7 +21,7 @@
               </svg>
             </button>
           </div>
-          <div class="text-white text-2xl">cointbase</div>
+          <div class="text-white text-2xl">coinbase</div>
           <div class="flex-shrink-0">
             <div class="focus:outline-none rounded-full block">
               <div class="sm:flex sm:items-center">
@@ -52,8 +52,8 @@
       </div>
     </div>
     <!-- Secondary Navigation -->
-    <nav class="hidden sm:block sm:bg-white bg-blue-600 sm:border-b">
-      <div class="container mx-auto max-w-7xl border-b px-4">
+    <nav class="hidden sm:block sm:bg-white bg-blue-600 border-b">
+      <div class="container mx-auto max-w-7xl px-4">
         <div class="sm:flex -mx-px sm:space-x-5">
           <a href="#" class="flex items-center sm:border-b text-gray-200 sm:border-blue-400 py-4">
             <svg  class="w-5 h-5 block text-gray-200 sm:text-blue-400" 
@@ -68,7 +68,7 @@
             </svg>
             <span class="ml-1 text-gray-200 sm:text-blue-400">Dashboard</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4">
+          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -81,7 +81,7 @@
             </svg>
             <span class="ml-1 text-gray-300 sm:text-gray-400">Buy/Sell</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4">
+          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -99,7 +99,7 @@
             </svg>  
             <span class="ml-1 text-gray-300 sm:text-gray-400">Account</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4">
+          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -117,16 +117,18 @@
             </svg>
             <span class="ml-1 text-gray-300 sm:text-gray-400">Tools</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4">
-            <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
+          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
+            <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400"   
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
                   xmlns="http://www.w3.org/2000/svg" 
                   viewBox="0 0 20 20" 
                   preserveAspectRatio="xMidYMid meet">
               <path xmlns="http://www.w3.org/2000/svg" 
-                    d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8zm4 10a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z">
-              </path>
+                    fill-rule="evenodd" 
+                    d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" 
+                    clip-rule="evenodd">
+                </path>
             </svg>
             <span class="ml-1 text-gray-300 sm:text-gray-400">Settings</span>
           </a>
