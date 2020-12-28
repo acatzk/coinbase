@@ -9,7 +9,7 @@
         </div>
         <div class="flex items-center space-x-2 text-sm">
           <div>&copy; 2020 Coinbase</div>
-          <select class="rounded text-sm focus:outline-none">
+          <select class="rounded text-sm focus:outline-none border-gray-300">
             <option>English</option>
           </select>
           <div>
