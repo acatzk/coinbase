@@ -183,7 +183,7 @@
                   <p class="text-2xl text-gray-500">No buys or sell yet</p>
                   <p class="text-gray-500 max-w-xs mx-auto">You've successfully linked a payment method and can start buying digital currency.</p>
                   <div>
-                    <button class="bg-blue-500 text-white py-4 px-6 rounded border">
+                    <button class="mt-2 bg-blue-500 text-white py-4 px-7 rounded border">
                       Buy now
                     </button>
                   </div>
@@ -194,28 +194,7 @@
         </div>
       </section>
     </main>
-    <footer class="mt-10 bg-white font-medium text-gray-400">
-      <div class="container max-w-7xl mx-auto py-3 px-4">
-        <div class="flex items-center flex-wrap  justify-between">
-          <div>
-            <a href="#" class="inline-block text-gray-400 px-2 py-2 rounded hover:bg-black-20 transition">Home</a>
-            <a href="#" class="inline-block text-gray-400 px-2 py-2 rounded hover:bg-black-20 transition">Careers</a>
-            <a href="#" class="inline-block text-gray-400 px-2 py-2 rounded hover:bg-black-20 transition">Legal & Privacy</a>
-          </div>
-          <div class="flex items-center space-x-2 text-sm">
-            <div>&copy; 2020 Coinbase</div>
-            <select class="rounded text-sm focus:outline-none">
-              <option>English</option>
-            </select>
-            <div>
-              <button class="block rounded text-sm font-medium bg-blue-500 text-white py-2 px-2 focus:ring-2 focus:ring-blue-300">
-                Need Help?
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <foot-bar />
   </div>
 </template>
 
@@ -224,7 +203,8 @@
     name: 'app',
     props: {},
     components: {
-      NavBar: () => import('@/components/NavBar')
+      NavBar: () => import('@/components/NavBar'),
+      FootBar: () => import('@/components/FootBar')
     },
     data () { 
       return {
