@@ -5,7 +5,7 @@
       <div class="container mx-auto max-w-7xl px-4">
         <div class="flex items-center justify-between flex-wrap py-4">
           <div class="block sm:hidden">
-            <button class="block focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-sm">
+            <button class="block focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-sm" @click="toggle = !toggle">
               <svg  class="w-8 h-8 text-white"
                     stroke="currentColor" 
                     xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -52,7 +52,7 @@
       </div>
     </div>
     <!-- Secondary Navigation -->
-    <nav class="hidden sm:block sm:bg-white bg-blue-600 border-b">
+    <nav class="sm:bg-white bg-blue-600 border-b" v-show="!toggle">
       <div class="container mx-auto max-w-7xl px-4">
         <div class="sm:flex -mx-px sm:space-x-5">
           <a href="#" class="flex items-center sm:border-b text-gray-200 sm:border-blue-400 py-4">
@@ -68,7 +68,7 @@
             </svg>
             <span class="ml-1 text-gray-200 sm:text-blue-400">Dashboard</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
+          <a href="#" class="flex items-center border-b border-transparent sm:hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -81,7 +81,7 @@
             </svg>
             <span class="ml-1 text-gray-300 sm:text-gray-400">Buy/Sell</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
+          <a href="#" class="flex items-center border-b border-transparent sm:hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -99,7 +99,7 @@
             </svg>  
             <span class="ml-1 text-gray-300 sm:text-gray-400">Account</span>
           </a>
-          <a href="#" class="flex items-center border-b border-transparent hover:border-gray-400 py-4 transition">
+          <a href="#" class="flex items-center border-b border-transparent sm:z-10hover:border-gray-400 py-4 transition">
             <svg  class="w-5 h-5 block text-gray-300 sm:text-gray-400" 
                   fill="currentColor" 
                   xmlns:xlink="http://www.w3.org/1999/xlink" 
